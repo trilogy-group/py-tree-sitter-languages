@@ -19,7 +19,7 @@ Install
 
 ::
 
-   pip install tree_sitter_languages
+   pip install tree_sitter_languages_arm64
 
 Source installs are not supported. To see how the binary wheels are built, look
 at:
