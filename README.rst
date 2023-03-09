@@ -11,7 +11,7 @@ even more fantastic `tree-sitter`_ parsing library.
 languages. The binary wheels remove the need to download and compile support
 for individual languages.
 
-.. _`py-tree-sitter-languages`: https://github.com/grantjenks/py-tree-sitter-languages
+.. _`py-tree-sitter-languages`: https://github.com/trilogy-group/py-tree-sitter-languages
 
 
 Install

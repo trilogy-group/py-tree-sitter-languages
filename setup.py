@@ -12,22 +12,22 @@ with open('README.rst') as reader:
     readme = reader.read()
 
 setuptools.setup(
-    name='tree_sitter_languages',
+    name='tree_sitter_languages_arm64',
     version=version,
     description='Binary Python wheels for all tree sitter languages.',
     long_description=readme,
-    author='Grant Jenks',
-    author_email='contact@grantjenks.com',
-    url='https://github.com/grantjenks/py-tree-sitter-languages',
+    author='Grant Jenks, Dorukhan Tokay',
+    author_email='contact@grantjenks.com, dorukhan.tokay@trilogy.com',
+    url='https://github.com/trilogy-group/py-tree-sitter-languages',
     license='Apache 2.0',
     ext_modules=cythonize('tree_sitter_languages/core.pyx', language_level='3'),
     packages=['tree_sitter_languages'],
     package_data={'tree_sitter_languages': ['languages.so', 'languages.dll']},
     install_requires=['tree-sitter'],
     project_urls={
-        'Documentation': 'https://github.com/grantjenks/py-tree-sitter-languages',
-        'Source': 'https://github.com/grantjenks/py-tree-sitter-languages',
-        'Tracker': 'https://github.com/grantjenks/py-tree-sitter-languages/issues',
+        'Documentation': 'https://github.com/trilogy-group/py-tree-sitter-languages',
+        'Source': 'https://github.com/trilogy-group/py-tree-sitter-languages',
+        'Tracker': 'https://github.com/trilogy-group/py-tree-sitter-languages/issues',
     },
     classifiers=[
         'Development Status :: 5 - Production/Stable',
