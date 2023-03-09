@@ -33,7 +33,7 @@ jobs:
           CIBW_TEST_COMMAND: pytest {package}/tests
           CIBW_SKIP: pp*
           CIBW_ARCHS_LINUX: x86_64 aarch64
-          CIBW_ARCHS_WINDOWS: x86_64 arm64
+          CIBW_ARCHS_WINDOWS: AMD64 ARM64
           CIBW_ARCHS_MACOS: x86_64 arm64
 
       - uses: actions/upload-artifact@v3
