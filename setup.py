@@ -12,7 +12,7 @@ with open('README.rst') as reader:
     readme = reader.read()
 
 setuptools.setup(
-    name='tree_sitter_languages_arm64',
+    name='tree_sitter_languages_lean',
     version=version,
     description='Binary Python wheels for all tree sitter languages.',
     long_description=readme,

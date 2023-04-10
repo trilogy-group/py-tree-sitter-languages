@@ -34,7 +34,7 @@ jobs:
           CIBW_TEST_REQUIRES: pytest
           CIBW_TEST_COMMAND: pytest {package}/tests
           CIBW_SKIP: pp*
-          CIBW_ARCHS_LINUX: aarch64
+          CIBW_ARCHS_LINUX: x86_64 aarch64
 
       - uses: actions/upload-artifact@v3
         with:
