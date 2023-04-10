@@ -66,6 +66,5 @@ Language.build_library(
         'vendor/tree-sitter-swift',
         'vendor/tree-sitter-typescript/tsx',
         'vendor/tree-sitter-typescript/typescript',
-        'vendor/tree-sitter-yaml',
     ]
 )
