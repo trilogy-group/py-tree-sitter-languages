@@ -196,7 +196,7 @@ form:
 
 * https://github.com/tree-sitter/tree-sitter — licensed under the MIT License.
 
-* https://github.com/AbstractMachinesLab/tree-sitter-erlang — licensed under
+* https://github.com/WhatsApp/tree-sitter-erlang — licensed under
   the Apache License, Version 2.0.
 
 * https://github.com/Azganoth/tree-sitter-lua — licensed under the MIT

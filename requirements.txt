@@ -1,2 +1,2 @@
-cibuildwheel==2.9.0
-cython==0.29.32
+cibuildwheel==2.12.3
+cython==0.29.34
